@@ -36,12 +36,12 @@ main {
 }
 
 footer {
-  background: #fff; /* Keeping it clean and in line with the body */
+  background: #fff;
   text-align: center;
   font-size: 16px;
   color: #333;
   padding: 20px 0;
-  margin-top: 80px; /* Increased spacing between main content and footer */
+  margin-top: 40px;
   border-top: 3px solid #333; /* Thick, dark line for clear separation */
   box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
