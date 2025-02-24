@@ -31,14 +31,19 @@ p {
   margin: 10px 0 0;
 }
 
+main {
+  padding-bottom: 60px; /* Creates more breathing room above the footer */
+}
+
 footer {
   background: #fff; /* Keeping it clean and in line with the body */
   text-align: center;
   font-size: 16px;
   color: #333;
   padding: 20px 0;
-  margin-top: 50px;
-  border-top: 2px solid #333;
+  margin-top: 80px; /* Increased spacing between main content and footer */
+  border-top: 3px solid #333; /* Thick, dark line for clear separation */
+  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
 
 footer p {
